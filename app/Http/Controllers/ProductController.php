@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App\Http\Resources\Product\ProductResource;
+
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
